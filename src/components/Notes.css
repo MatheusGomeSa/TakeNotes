@@ -1,0 +1,9 @@
+.takeNote{
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+}
