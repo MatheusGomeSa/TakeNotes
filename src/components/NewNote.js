@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import './NewNote.css'
-const NewNote = () =>{
-    const [newPostIt,SetnewPostIt] = useState()
+const NewNote = ({ onClick }) =>{
+     
     return(
         <div>
-            <button className='button'>+</button>
+            <button className='button' Onclick={onClick}>+</button>
         </div>
     )
 }
